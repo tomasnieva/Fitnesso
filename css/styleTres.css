@@ -1,0 +1,42 @@
+section{
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    position: relative;
+    min-width: 400px;
+}
+
+.caja-hijo{
+    width: 70px;
+    height: 70px;
+    border: 4px inset red;
+    background-color: rgb(255, 190, 190);
+    text-align: center;
+}
+
+/* caja 1 */
+
+.cajaUno{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: aliceblue;
+}
+
+/* caja 2 */
+
+.cajaDos{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    width: 100px;
+}
+
+/* caja exp */
+
+.widths{
+    border: 5px inset purple;
+    width: 400px;
+    min-width: 200px;
+    margin: 10px;
+}

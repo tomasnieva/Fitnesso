@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+
+header{
+    justify-content: space-between;
+}
+
+header h1{
+    color: rgb(121, 121, 121);
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    margin: 20px 0px;
+}
+
+header, main, nav{
+    display: flex;
+    align-items: center;
+}
+
+
+header a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 60px;
+}
+a{
+    text-decoration: none;
+}
+
+/* body */
+
+body{
+    margin: 0 70px;
+    background-color: rgb(152, 151, 255);
+}
+
+/* main */
+
+main{
+    justify-content: space-around;
+}
+
+.cont-texto h2{
+    margin: 10px 0;
+}
+
+.cont-texto h1, p{
+    margin-bottom: 20px;
+}
+
+span, h1, h2, p, a{
+    color: rgb(0, 0, 146);
+}
+
+.cont-texto{
+    margin-right: 120px;
+}
+.cont-texto h1{
+    font-size: 60px;
+}
+
+.cont-imagen{
+    box-shadow: 20px -20px rgb(0, 0, 78);
+    margin-top: 25px;
+}
+
+
